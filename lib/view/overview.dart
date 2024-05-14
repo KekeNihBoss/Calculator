@@ -410,7 +410,7 @@ class OverviewState extends State<Overview> {
                           color: Colors.blueGrey,
                           onPressed: () =>
                               // ignore: deprecated_member_use
-                              launch("https://github.com/reven-erlangga/android-calculator"), //Shortcut
+                              launch("https://github.com/KekeNihBoss/calculator"), //Shortcut
                         )
                       ],
                     )),
