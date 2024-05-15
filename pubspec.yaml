@@ -38,7 +38,6 @@ dependencies:
   url_launcher: ^6.2.4
   fluttertoast: ^8.2.5
   math_expressions: ^2.5.0
-  change_app_package_name: ^1.1.0
 
 dev_dependencies:
   flutter_test:
