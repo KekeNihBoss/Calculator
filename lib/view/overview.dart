@@ -36,11 +36,11 @@ class OverviewState extends State<Overview> {
       children: <Widget>[
         TextButton(
           onPressed: () => setState(() {
-            txtControllerInput.text = txtControllerInput.text + "7";
+            txtControllerInput.text = "${txtControllerInput.text}7";
           }),
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(
-              EdgeInsets.all(18.0),
+              const EdgeInsets.all(18.0),
             ),
             foregroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
             backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
@@ -52,11 +52,11 @@ class OverviewState extends State<Overview> {
         ),
         TextButton(
           onPressed: () => setState(() {
-            txtControllerInput.text = txtControllerInput.text + "8";
+            txtControllerInput.text = "${txtControllerInput.text}8";
           }),
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(
-              EdgeInsets.all(18.0),
+              const EdgeInsets.all(18.0),
             ),
             foregroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
             backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
@@ -68,11 +68,11 @@ class OverviewState extends State<Overview> {
         ),
         TextButton(
           onPressed: () => setState(() {
-            txtControllerInput.text = txtControllerInput.text + "9";
+            txtControllerInput.text = "${txtControllerInput.text}9";
           }),
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(
-              EdgeInsets.all(18.0),
+              const EdgeInsets.all(18.0),
             ),
             foregroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
             backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
@@ -84,11 +84,11 @@ class OverviewState extends State<Overview> {
         ),
         TextButton(
           onPressed: () => setState(() {
-            txtControllerInput.text = txtControllerInput.text + "/";
+            txtControllerInput.text = "${txtControllerInput.text}/";
           }),
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(
-              EdgeInsets.all(18.0),
+              const EdgeInsets.all(18.0),
             ),
             foregroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
             backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
@@ -109,11 +109,11 @@ class OverviewState extends State<Overview> {
       children: <Widget>[
         TextButton(
           onPressed: () => setState(() {
-            txtControllerInput.text = txtControllerInput.text + "4";
+            txtControllerInput.text = "${txtControllerInput.text}4";
           }),
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(
-              EdgeInsets.all(18.0),
+              const EdgeInsets.all(18.0),
             ),
             foregroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
             backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
@@ -125,11 +125,11 @@ class OverviewState extends State<Overview> {
         ),
         TextButton(
           onPressed: () => setState(() {
-            txtControllerInput.text = txtControllerInput.text + "5";
+            txtControllerInput.text = "${txtControllerInput.text}5";
           }),
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(
-              EdgeInsets.all(18.0),
+              const EdgeInsets.all(18.0),
             ),
             foregroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
             backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
@@ -141,11 +141,11 @@ class OverviewState extends State<Overview> {
         ),
         TextButton(
           onPressed: () => setState(() {
-            txtControllerInput.text = txtControllerInput.text + "6";
+            txtControllerInput.text = "${txtControllerInput.text}6";
           }),
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(
-              EdgeInsets.all(18.0),
+              const EdgeInsets.all(18.0),
             ),
             foregroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
             backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
@@ -157,11 +157,11 @@ class OverviewState extends State<Overview> {
         ),
         TextButton(
           onPressed: () => setState(() {
-            txtControllerInput.text = txtControllerInput.text + "*";
+            txtControllerInput.text = "${txtControllerInput.text}*";
           }),
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(
-              EdgeInsets.all(18.0),
+              const EdgeInsets.all(18.0),
             ),
             foregroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
             backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
@@ -182,11 +182,11 @@ class OverviewState extends State<Overview> {
       children: <Widget>[
         TextButton(
           onPressed: () => setState(() {
-            txtControllerInput.text = txtControllerInput.text + "1";
+            txtControllerInput.text = "${txtControllerInput.text}1";
           }),
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(
-              EdgeInsets.all(18.0),
+              const EdgeInsets.all(18.0),
             ),
             foregroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
             backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
@@ -198,11 +198,11 @@ class OverviewState extends State<Overview> {
         ),
         TextButton(
           onPressed: () => setState(() {
-            txtControllerInput.text = txtControllerInput.text + "2";
+            txtControllerInput.text = "${txtControllerInput.text}2";
           }),
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(
-              EdgeInsets.all(18.0),
+              const EdgeInsets.all(18.0),
             ),
             foregroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
             backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
@@ -214,11 +214,11 @@ class OverviewState extends State<Overview> {
         ),
         TextButton(
           onPressed: () => setState(() {
-            txtControllerInput.text = txtControllerInput.text + "3";
+            txtControllerInput.text = "${txtControllerInput.text}3";
           }),
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(
-              EdgeInsets.all(18.0),
+              const EdgeInsets.all(18.0),
             ),
             foregroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
             backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
@@ -230,11 +230,11 @@ class OverviewState extends State<Overview> {
         ),
         TextButton(
           onPressed: () => setState(() {
-            txtControllerInput.text = txtControllerInput.text + "-";
+            txtControllerInput.text = "${txtControllerInput.text}-";
           }),
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(
-              EdgeInsets.all(18.0),
+              const EdgeInsets.all(18.0),
             ),
             foregroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
             backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
@@ -255,11 +255,11 @@ class OverviewState extends State<Overview> {
       children: <Widget>[
         TextButton(
           onPressed: () => setState(() {
-            txtControllerInput.text = txtControllerInput.text + ".";
+            txtControllerInput.text = "${txtControllerInput.text}.";
           }),
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(
-              EdgeInsets.all(18.0),
+              const EdgeInsets.all(18.0),
             ),
             foregroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
             backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
@@ -271,11 +271,11 @@ class OverviewState extends State<Overview> {
         ),
         TextButton(
           onPressed: () => setState(() {
-            txtControllerInput.text = txtControllerInput.text + "0";
+            txtControllerInput.text = "${txtControllerInput.text}0";
           }),
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(
-              EdgeInsets.all(18.0),
+              const EdgeInsets.all(18.0),
             ),
             foregroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
             backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
@@ -288,7 +288,7 @@ class OverviewState extends State<Overview> {
         TextButton(
           style: ButtonStyle(
               padding: MaterialStateProperty.all<EdgeInsets>(
-              EdgeInsets.all(18.0),
+              const EdgeInsets.all(18.0),
             ),
             foregroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
             backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
@@ -305,7 +305,7 @@ class OverviewState extends State<Overview> {
         TextButton(
           style: ButtonStyle(
               padding: MaterialStateProperty.all<EdgeInsets>(
-              EdgeInsets.all(18.0),
+              const EdgeInsets.all(18.0),
             ),
             foregroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
             backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
